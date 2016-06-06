@@ -8,6 +8,7 @@ import java.util.Date;
  * @see Classe de persistência para guardar propriedades e métodos relacionados a Cliente
  */
 public class Cliente {
+    private int id;
     private String nome;
     private int cpf;
     private Date dataNascimento;
@@ -16,13 +17,22 @@ public class Cliente {
 
     public Cliente() {
     }
-    
-    public Cliente(String nome, int cpf, Date dataNascimento, String endereco, int telefone) {
+
+    public Cliente(int id, String nome, int cpf, Date dataNascimento, String endereco, int telefone) {
+        this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.dataNascimento = dataNascimento;
         this.endereco = endereco;
         this.telefone = telefone;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -64,4 +74,6 @@ public class Cliente {
     public void setTelefone(int telefone) {
         this.telefone = telefone;
     }
+    
+    
 }
