@@ -2,6 +2,7 @@ package gestaoclientes;
 
 import gestaoclientes.Dao.DaoCliente;
 import gestaoclientes.file.FileCliente;
+import gestaoclientes.gui.GuiCliente;
 import gestaoclientes.model.Cliente;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 
 /**
  *
@@ -55,7 +57,8 @@ public class GestaoClientes {
         System.out.println("3. Inserir");
         System.out.println("4. Atualizar");
         System.out.println("5. Deletar");
-        System.out.println("6. Sair");
+        System.out.println("6. Janela GUI");
+        System.out.println("7. Sair");
         System.out.println("Opção: ");
         int choice = scanner.nextInt();
         
@@ -74,6 +77,9 @@ public class GestaoClientes {
                 break;
             case 5:
                 delete();
+                break;
+            case 6:
+                openGui();
                 break;
             default:
                 break;
@@ -257,6 +263,11 @@ public class GestaoClientes {
         
         daoCliente.deleteCliente(id);
         System.out.println("Cliente excluído com sucesso");
+    }
+    
+    
+    public static void openGui(){
+        new GuiCliente().main(new String[0]);
     }
 }
 
