@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Bruno/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/Dao/DaoCliente.java</file>
-            <file>file:/C:/Users/Bruno/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/GestaoClientes.java</file>
-            <file>file:/C:/Users/Bruno/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/gui/GuiCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/gui/GuiCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/gui/NovoCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/model/Cliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/Dao/DaoCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/gui/MostrarCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/gui/ExcluirCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/gui/EditarCliente.java</file>
+            <file>file:/C:/Users/Jorge/Documents/NetBeansProjects/GestaoClientes/src/gestaoclientes/GestaoClientes.java</file>
         </group>
     </open-files>
 </project-private>

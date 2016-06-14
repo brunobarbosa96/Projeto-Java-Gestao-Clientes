@@ -267,7 +267,8 @@ public class GestaoClientes {
     
     
     public static void openGui(){
-        new GuiCliente().main(new String[0]);
+        GuiCliente tela = new GuiCliente();
+        tela.main(new String[0]);
     }
 }
 

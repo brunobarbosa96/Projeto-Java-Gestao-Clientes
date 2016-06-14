@@ -84,6 +84,7 @@ public class DaoCliente {
             while(rs.next()){
                 //cria novo objeto pessoa
                 Cliente cliente = new Cliente();
+                cliente.setId(rs.getInt("id"));
                 cliente.setNome(rs.getString("nome"));
                 cliente.setDataNascimento(rs.getDate("dataNascimento"));
                 cliente.setCpf(rs.getInt("cpf"));
